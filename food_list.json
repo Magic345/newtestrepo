@@ -7,7 +7,7 @@
             "weight": 445,
             "price": 1400,
             "image": "./img/food/закуски/мясная нарезка.png",
-            "category": "./img/food/заголовки/закуски.png"
+            "category": "img/food/заголовки/закуски.png"
 
         },
         {
@@ -17,7 +17,7 @@
             "weight": 465,
             "price": 1200,
             "image": "./img/food/закуски/нарезка к водке.png",
-            "category": "./img/food/заголовки/закуски.png"
+            "category": "img/food/заголовки/закуски.png"
 
         },
         {
@@ -27,7 +27,7 @@
             "weight": 695,
             "price": 1100,
             "image": "./img/food/закуски/сырная нарезка.png",
-            "category": "./img/food/заголовки/закуски.png"
+            "category": "img/food/заголовки/закуски.png"
         },
         {
             "id": 4,
@@ -36,7 +36,7 @@
             "weight": 400,
             "price": 1300,
             "image": "./img/food/закуски/фрукт тарел.png",
-            "category": "./img/food/заголовки/закуски.png"
+            "category": "img/food/заголовки/закуски.png"
         }
     ]
 }
