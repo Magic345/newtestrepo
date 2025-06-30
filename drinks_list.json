@@ -1,0 +1,60 @@
+{
+    "drinks": [
+        {
+            "id": 1,
+            "name": "Манго маракуйя",
+            "weight1": 400,
+            "weight2": 1000,
+            "price1": 350,
+            "price2": 700,
+            "image": "img/drinks/лимонады/манго_маракуйя.png",
+            "category": "img/drinks/заголовки/лимонады.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 2,
+            "name": "Мохито",
+            "weight1": 400,
+            "weight2": 1000,
+            "price1": 350,
+            "price2": 700,
+            "image": "img/drinks/лимонады/мохито.png",
+            "category": "img/drinks/заголовки/лимонады.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 3,
+            "name": "Пина колада",
+            "weight1": 400,
+            "weight2": 1000,
+            "price1": 350,
+            "price2": 700,
+            "image": "img/drinks/лимонады/пина_колада.png",
+            "category": "img/drinks/заголовки/лимонады.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 4,
+            "name": "Цитрусовый",
+            "weight1": 400,
+            "weight2": 1000,
+            "price1": 350,
+            "price2": 700,
+            "image": "img/drinks/лимонады/цитрусовый.png",
+            "category": "img/drinks/заголовки/лимонады.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 4,
+            "name": "ягодный",
+            "weight1": 400,
+            "weight2": 1000,
+            "price1": 350,
+            "price2": 700,
+            "image": "img/drinks/лимонады/ягодный.png",
+            "category": "img/drinks/заголовки/лимонады.svg",
+            "layout": "two_weight_and_price"
+        }
+    ]
+
+}
