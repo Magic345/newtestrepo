@@ -200,10 +200,11 @@
         {
             "id": 22,
             "name": "Мороженное кофейное / пломбир",
+            "weight": 200,
             "price": 300,
             "image": "./img/food/десерты/мороженное.png",
             "category": "img/food/заголовки/десерты.png",
-            "layout": "title_and_price"
+            "layout": "no_description"
         }
     ]
 
