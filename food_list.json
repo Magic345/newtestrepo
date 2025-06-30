@@ -201,7 +201,7 @@
             "id": 22,
             "name": "Мороженное кофейное / пломбир",
             "price": 300,
-            "image": "./img/food/десерты/наполеон.png",
+            "image": "./img/food/десерты/мороженное.png",
             "category": "img/food/заголовки/десерты.png",
             "layout": "title_and_price"
         }
