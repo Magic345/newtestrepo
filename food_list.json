@@ -169,7 +169,7 @@
             "id": 18,
             "name": "Наполеон",
             "price": 400,
-            "image": "./img/food/фритюр/наполеон.png",
+            "image": "./img/food/десерты/наполеон.png",
             "category": "img/food/заголовки/десерты.png",
             "layout": "title_and_price"
         },
@@ -177,7 +177,7 @@
             "id": 19,
             "name": "3 шоколада",
             "price": 400,
-            "image": "./img/food/фритюр/3_шоколада.png",
+            "image": "./img/food/десерты/3_шоколада.png",
             "category": "img/food/заголовки/десерты.png",
             "layout": "title_and_price"
         },
@@ -185,7 +185,7 @@
             "id": 20,
             "name": "Чизкейк шоколад",
             "price": 400,
-            "image": "./img/food/фритюр/чизкейк_шоколад.png",
+            "image": "./img/food/десерты/чизкейк_шоколад.png",
             "category": "img/food/заголовки/десерты.png",
             "layout": "title_and_price"
         },
@@ -193,7 +193,7 @@
             "id": 21,
             "name": "Чизкейк классик",
             "price": 400,
-            "image": "./img/food/фритюр/чизкейк_класик.png",
+            "image": "./img/food/десерты/чизкейк_класик.png",
             "category": "img/food/заголовки/десерты.png",
             "layout": "title_and_price"
         },
@@ -201,7 +201,7 @@
             "id": 22,
             "name": "Мороженное кофейное / пломбир",
             "price": 300,
-            "image": "./img/food/фритюр/наполеон.png",
+            "image": "./img/food/десерты/наполеон.png",
             "category": "img/food/заголовки/десерты.png",
             "layout": "title_and_price"
         }
