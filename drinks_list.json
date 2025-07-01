@@ -273,7 +273,227 @@
             "price": 300,
             "category": "img/drinks/заголовки/чай.svg",
             "layout": "no_image"
+        },
+        {
+            "id": 33,
+            "name": "смородина-базилик",
+            "weight": 1000,
+            "price": 500,
+            "image": "img/drinks/авторский/смородина-базилик.png",
+            "category": "img/drinks/заголовки/авторский.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 34,
+            "name": "Цитрусовый",
+            "weight": 1000,
+            "price": 500,
+            "image": "img/drinks/авторский/цитрусовый.png",
+            "category": "img/drinks/заголовки/авторский.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 35,
+            "name": "ИмбирныЙ",
+            "weight": 1000,
+            "price": 500,
+            "image": "img/drinks/авторский/имбирный.png",
+            "category": "img/drinks/заголовки/авторский.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 36,
+            "name": "Облепиховый",
+            "weight": 1000,
+            "price": 500,
+            "image": "img/drinks/авторский/облепиховый.png",
+            "category": "img/drinks/заголовки/авторский.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 37,
+            "name": "Вода",
+            "weight": 500,
+            "price": 150,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 38,
+            "name": "фанта",
+            "weight": 330,
+            "price": 220,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 39,
+            "name": "спрайт",
+            "weight": 330,
+            "price": 220,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 40,
+            "name": "кола",
+            "weight": 330,
+            "price": 220,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 41,
+            "name": "Кола(zero)",
+            "weight": 330,
+            "price": 220,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 42,
+            "name": "red bull",
+            "weight": 250,
+            "price": 280,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 43,
+            "name": "red bull",
+            "weight": 330,
+            "price": 400,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 44,
+            "name": "сок",
+            "weight": 330,
+            "price": 220,
+            "category": "img/drinks/заголовки/напитки.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 45,
+            "name": "Стелла Артуа",
+            "weight": 500,
+            "price": 250,
+            "category": "img/drinks/заголовки/пиво.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 46,
+            "name": "Bud",
+            "weight": 750,
+            "price": 300,
+            "category": "img/drinks/заголовки/пиво.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 47,
+            "name": "Corona extra",
+            "weight": 330,
+            "price": 350,
+            "category": "img/drinks/заголовки/пиво.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 48,
+            "name": "Barrister",
+            "weight": 40,
+            "price": 200,
+            "category": "img/drinks/заголовки/джин.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 49,
+            "name": "Beefeater",
+            "weight": 40,
+            "price": 400,
+            "category": "img/drinks/заголовки/джин.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 50,
+            "name": "Olmeca(gold)",
+            "weight": 40,
+            "price": 400,
+            "category": "img/drinks/заголовки/текила.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 51,
+            "name": "Olmeca(silver)",
+            "weight": 40,
+            "price": 500,
+            "category": "img/drinks/заголовки/текила.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 52,
+            "name": "Царская (оригинальная)",
+            "weight": 40,
+            "price": 150,
+            "category": "img/drinks/заголовки/водка.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 53,
+            "name": "Царская (золотая)",
+            "weight": 40,
+            "price": 170,
+            "category": "img/drinks/заголовки/водка.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 54,
+            "name": "Белуга",
+            "weight": 40,
+            "price": 300,
+            "category": "img/drinks/заголовки/водка.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 55,
+            "name": "Чистые Росы",
+            "weight": 40,
+            "price": 330,
+            "category": "img/drinks/заголовки/водка.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 56,
+            "name": "Абрау-Дюрсо бел. п/сл",
+            "price": 1500,
+            "category": "img/drinks/заголовки/шампанское.svg",
+            "layout": "no_image"
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     ]
 
