@@ -1,0 +1,21 @@
+{
+    "hookahs": [
+        {
+            "id": 1,
+            "name": "Кальян",
+            "price": 1300,
+            "image": "./img/hookahs/кальяны/кальян.png",
+            "category": "img/hookahs/заголовки/кальяны.png",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 2,
+            "name": "Кальян премиум",
+            "price": 1500,
+            "image": "./img/hookahs/кальяны/кальян_премиум.png",
+            "category": "img/hookahs/заголовки/кальяны.png",
+            "layout": "title_and_price"
+        }    
+    ]
+
+}
