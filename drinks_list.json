@@ -45,16 +45,236 @@
             "layout": "two_weight_and_price"
         },
         {
-            "id": 4,
-            "name": "ягодный",
-            "weight1": 400,
-            "weight2": 1000,
-            "price1": 350,
-            "price2": 700,
-            "image": "img/drinks/лимонады/ягодный.png",
-            "category": "img/drinks/заголовки/лимонады.svg",
-            "layout": "two_weight_and_price"
+            "id": 5,
+            "name": "Лавандовая Лили",
+            "weight": 300,
+            "price": 450,
+            "image": "img/drinks/коктейли/лавандовая_лили.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 6,
+            "name": "Эспрессо Мартини",
+            "weight": 300,
+            "price": 500,
+            "image": "img/drinks/коктейли/эспрессо_мартини.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 7,
+            "name": "малиновый Мартини",
+            "weight": 300,
+            "price": 500,
+            "image": "img/drinks/коктейли/малиновый_мартини.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 8,
+            "name": "Playboy",
+            "weight": 300,
+            "price": 550,
+            "image": "img/drinks/коктейли/плэй_бой.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 9,
+            "name": "ice cherry spritz",
+            "weight": 300,
+            "price": 600,
+            "image": "img/drinks/коктейли/айс_чери_шприц.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 10,
+            "name": "Полярный медведь",
+            "weight": 400,
+            "price": 600,
+            "image": "img/drinks/коктейли/полярный_медведь.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 11,
+            "name": "OrangePower",
+            "weight": 400,
+            "price": 650,
+            "image": "img/drinks/коктейли/оранджповер.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 12,
+            "name": "Негрони",
+            "weight": 300,
+            "price": 680,
+            "image": "img/drinks/коктейли/негрони.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 13,
+            "name": "Mai tai",
+            "weight": 400,
+            "price": 750,
+            "image": "img/drinks/коктейли/май_тай.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 15,
+            "name": "Клюквенный Лонг Айленд",
+            "weight": 400,
+            "price": 850,
+            "image": "img/drinks/коктейли/лавандовая_лили.png",
+            "category": "img/drinks/заголовки/коктейли.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 16,
+            "name": "ягоды",
+            "weight": 400,
+            "price": 450,
+            "image": "img/drinks/смузи/ягоды.png",
+            "category": "img/drinks/заголовки/смузи.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 17,
+            "name": "клубника банан",
+            "weight": 400,
+            "price": 450,
+            "image": "img/drinks/смузи/клубника_банан.png",
+            "category": "img/drinks/заголовки/смузи.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 18,
+            "name": "киви яблоко",
+            "weight": 400,
+            "price": 450,
+            "image": "img/drinks/смузи/киви_яблоко.png",
+            "category": "img/drinks/заголовки/смузи.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 18,
+            "name": "зелЁный смузи",
+            "weight": 400,
+            "price": 450,
+            "image": "img/drinks/смузи/зелёный_смузи.png",
+            "category": "img/drinks/заголовки/смузи.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 19,
+            "name": "Эспрессо",
+            "price": 100,
+            "image": "img/drinks/кофе/эспрессо.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 20,
+            "name": "Американо",
+            "price": 150,
+            "image": "img/drinks/кофе/американо.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 21,
+            "name": "Капучино",
+            "price": 200,
+            "image": "img/drinks/кофе/капучино.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 22,
+            "name": "Латте",
+            "price": 220,
+            "image": "img/drinks/кофе/латте.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 23,
+            "name": "Флэт Вайт",
+            "price": 250,
+            "image": "img/drinks/кофе/флэт_вайт.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 24,
+            "name": "Бамбл",
+            "price": 250,
+            "image": "img/drinks/кофе/бамбл.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 25,
+            "name": "Айс латте",
+            "price": 250,
+            "image": "img/drinks/кофе/айс_латте.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 26,
+            "name": "Фрапучино",
+            "price": 300,
+            "image": "img/drinks/кофе/фрапучино.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 27,
+            "name": "Эспрессо-тоник",
+            "price": 300,
+            "image": "img/drinks/кофе/эспрессо-тоник.png",
+            "category": "img/drinks/заголовки/кофе.svg",
+            "layout": "title_and_price"
+        },
+        {
+            "id": 29,
+            "name": "зеленый",
+            "weight": 1000,
+            "price": 300,
+            "category": "img/drinks/заголовки/чай.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 30,
+            "name": "черный",
+            "weight": 1000,
+            "price": 300,
+            "category": "img/drinks/заголовки/чай.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 31,
+            "name": "черный с бергамотом",
+            "weight": 1000,
+            "price": 300,
+            "category": "img/drinks/заголовки/чай.svg",
+            "layout": "no_image"
+        },
+        {
+            "id": 32,
+            "name": "черный с апельсином",
+            "weight": 1000,
+            "price": 300,
+            "category": "img/drinks/заголовки/чай.svg",
+            "layout": "no_image"
         }
+
     ]
 
 }
