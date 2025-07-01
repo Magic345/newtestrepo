@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style_food.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Еда</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background-color: black;">
+            <div class="container-fluid">
+                <div class="d-flex w-100 align-items-center">
+                    <a class="navbar-brand me-auto" href="#">
+                        <img src="./img/food/logo_for_food.svg" alt="Лого" width="134" height="21">
+                    </a>
+                    
+                    <a href="./index.html" class="btn btn-sm ms-2">
+                        <img src="./img/food/home_button.svg" alt="главная">
+                    </a>
+                </div>
+
+
+            <div class="nav-divider w-100"></div>
+                <div class="scrollable-buttons">
+                    <a href="#закуски" class="menu-button active">
+                    <small>закуски</small>
+                    </a>
+                    <a href="#пицца" class="menu-button">
+                    <small>пицца</small>
+                    </a>
+                    <a href="#салаты" class="menu-button">
+                    <small>салаты</small>
+                    </a>
+                    <a href="#фритюр" class="menu-button">
+                    <small>фритюр</small>
+                    </a>
+                    <a href="#десерты" class="menu-button">
+                    <small>десерты</small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <section>
+        
+        <div class="container">
+            
+        </div>
+
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.menu-button').forEach(button => {
+            button.addEventListener('click', function() {
+                // Удаляем класс active у всех кнопок
+                    document.querySelectorAll('.menu-button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Добавляем класс active только к текущей кнопке
+                this.classList.add('active');
+            });
+        });
+
+        fetch('https://magic345.github.io/newtestrepo/food_list.json')
+            .then(response => response.json())
+            .then(data => {
+                const menuContainer = document.querySelector('.container');
+                let currentCategory;
+                data.food.forEach(dish => {
+                    
+                    if (dish.category !== currentCategory) {
+                        currentCategory = dish.category;
+                        menuContainer.innerHTML += `
+                            <div class="row " id=${currentCategory.slice(19, -4)}>
+                                <div class="col-12 d-flex flex-column align-items-center">
+                                    <img src="${currentCategory}" alt="Категория" class="category-header" width=365.4 hidth=64>
+                               </div>
+                            </div>
+                        `;
+                    }
+
+                    switch(dish.layout){
+                        case "description":
+                            menuContainer.innerHTML += `
+                                <div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-6">
+                                            <div class="position-relative">
+                                                <img src="${dish.image}" class="card-img-top rounded-3" alt="${dish.name}">
+                
+                                                <div class="blok-menu">
+                                                    <div class="menu-title">
+                                                        <h3>${dish.name}</h3>
+                                                    </div>
+                                                    <div class="menu-description">
+                                                        <p>${dish.description}</p>
+                                                    </div>
+                                                    <div class="menu-foter">
+                                                        <span>${dish.weight}гр</span>
+                                                        <span class="cost">${dish.price} ₽</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            `;
+                        break;
+
+                        case "no_description":
+                            menuContainer.innerHTML += `
+                                <div style="margin-bottom: 27px;">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-6">
+                                            <div class="position-relative">
+                                                <img src="${dish.image}" class="card-img-top rounded-3" alt="${dish.name}" >
+                
+                                                <div class="blok-menu">
+                                                    <div class="menu-title" style="padding-bottom: 16px;">
+                                                        <h3>${dish.name}</h3>
+                                                    </div>
+                                                    <div class="menu-foter">
+                                                        <span>${dish.weight}гр</span>
+                                                        <span class="cost">${dish.price} ₽</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>                            
+                            `;
+                        break;
+                        
+                        case "title_and_price":
+                            menuContainer.innerHTML += `
+                                <div style="margin-bottom: 27px;">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-6">
+                                            <div class="position-relative" >
+                                                <img src="${dish.image}" class="card-img-top rounded-3" alt="${dish.name}">
+                
+                                                <div class="blok-menu">
+                                                    <div class="menu-foter">
+                                                        <div class="menu-title">
+                                                            <h3>${dish.name}</h3>
+                                                        </div>
+                                                        <span class="cost">${dish.price} ₽</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>                            
+                            `;
+                        break;
+
+                    }
+
+                });
+            });
+    </script>
+</body>
+</html>

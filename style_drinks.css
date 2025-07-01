@@ -1,0 +1,155 @@
+body{
+    background-color: #FFD400; 
+    background-image: url(./img/drinks/фон_для_напитков.png);
+    background-position: center;
+    padding-top: 147px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px; /* Современная замена offset'у */
+}
+
+section[id], div[id] {
+  scroll-margin-top: 60px;
+}
+
+.nav-divider {
+    margin: 0.5rem 0;
+}
+.scrollable-buttons {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* Плавный скролл на iOS */
+    padding-bottom: 10px; /* Чтобы скроллбар не перекрывал кнопки */
+
+}
+.scrollable-buttons::-webkit-scrollbar {
+    height: 0%;
+}
+.scrollable-buttons::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;
+}
+
+.scrollable-buttons small {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-button {
+    flex: 0 0 auto;
+    margin-right: 22px; 
+    max-width: 140px;
+    height: 35px;
+    color: #FFD400;
+    border-radius: 99px;
+    background-color: black;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 0 20px; 
+    text-decoration: none;
+}
+.active {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    color: black;
+}
+
+
+.menu-button small{
+    font-size: 16px;
+}
+
+.menu-button:last-child {
+    margin-right: 0;
+}
+
+
+.category-header {
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.category-header:after {
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto 0;
+}
+
+.blok-menu {
+    position: static; /* Убираем absolute */
+    transform: translateY(-30%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 305px;
+    background: #0C0C0C;
+    border-radius: 13px;
+    padding: 16px 19px;
+
+}
+
+
+
+.menu-title{
+    max-width: 256px;
+    max-height: 100px;
+    padding-bottom: 16px;
+}
+
+.menu-title h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFD400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.menu-description{
+    max-width: 260px;
+    max-height: 115px;
+    padding: 16px 0;
+}
+
+.menu-description p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.2; /* Опционально: межстрочный интервал */
+    margin: 0; 
+    padding: 0;
+    color: #FFD400;
+}
+
+.menu-foter{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    max-width: 350px;
+    max-height: 36px;
+    color: #FFD400;
+}
+.menu-foter:not(:last-child){
+    padding-bottom: 18px;
+}
+
+.menu-foter .cost{
+    font-weight: 500;
+}
+
+.position-relative {
+    display: flex;
+    flex-direction: column;
+}
+
