@@ -470,32 +470,158 @@
             "price": 1500,
             "category": "img/drinks/заголовки/шампанское.svg",
             "layout": "no_description"
+        },
+        {
+            "id": 57,
+            "name": "Абрау-Дюрсо бел. п/сух",
+            "price": 1500,
+            "category": "img/drinks/заголовки/шампанское.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 58,
+            "name": "Абрау-Дюрсо брют",
+            "price": 1500,
+            "category": "img/drinks/заголовки/шампанское.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 59,
+            "name": "Лев Голицынъ Бел. п/сл",
+            "price": 1500,
+            "category": "img/drinks/заголовки/шампанское.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 60,
+            "name": "Лев Голицынъ Бел. п/сух",
+            "price": 1500,
+            "category": "img/drinks/заголовки/шампанское.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 61,
+            "name": "Лев Голицынъ Брют",
+            "price": 1500,
+            "category": "img/drinks/заголовки/шампанское.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 62,
+            "name": "Trоzo красное сухое ",
+            "weight1": 150,
+            "weight2": 750,
+            "price1": 250,
+            "price2": 1250,
+            "category": "img/drinks/заголовки/вино.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 63,
+            "name": "Trоzo красное полусладкое",
+            "weight1": 150,
+            "weight2": 750,
+            "price1": 250,
+            "price2": 1250,
+            "category": "img/drinks/заголовки/вино.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 64,
+            "name": "Trоzo белое сухое",
+            "weight1": 150,
+            "weight2": 750,
+            "price1": 250,
+            "price2": 1250,
+            "category": "img/drinks/заголовки/вино.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 65,
+            "name": "Цинандали белое сухое",
+            "weight1": 150,
+            "weight2": 750,
+            "price1": 400,
+            "price2": 2000,
+            "category": "img/drinks/заголовки/вино.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 66,
+            "name": "Саперави красное сухое",
+            "weight1": 150,
+            "weight2": 500,
+            "price1": 400,
+            "price2": 2000,
+            "category": "img/drinks/заголовки/вино.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 66,
+            "name": "Алазанская Долина красное полусладкое",
+            "weight1": 150,
+            "weight2": 500,
+            "price1": 400,
+            "price2": 2000,
+            "category": "img/drinks/заголовки/вино.svg",
+            "layout": "two_weight_and_price"
+        },
+        {
+            "id": 67,
+            "name": "Старый Кахети (***)",
+            "weight": 40,
+            "price": 250,
+            "category": "img/drinks/заголовки/коньяк.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 68,
+            "name": "Арарат (***)",
+            "weight": 40,
+            "price": 400,
+            "category": "img/drinks/заголовки/коньяк.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 69,
+            "name": "Арарат (*****)",
+            "weight": 40,
+            "price": 450,
+            "category": "img/drinks/заголовки/коньяк.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 70,
+            "name": "Хенеси",
+            "weight": 40,
+            "price": 700,
+            "category": "img/drinks/заголовки/коньяк.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 71,
+            "name": "Jameson",
+            "weight": 40,
+            "price": 450,
+            "category": "img/drinks/заголовки/виски.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 72,
+            "name": "chivas",
+            "weight": 40,
+            "price": 550,
+            "category": "img/drinks/заголовки/виски.svg",
+            "layout": "no_description"
+        },
+        {
+            "id": 73,
+            "name": "monkey shoulder",
+            "weight": 40,
+            "price": 550,
+            "category": "img/drinks/заголовки/виски.svg",
+            "layout": "no_description"
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     ]
 
