@@ -248,7 +248,7 @@
             "weight": 1000,
             "price": 300,
             "category": "img/drinks/заголовки/чай.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 30,
@@ -256,7 +256,7 @@
             "weight": 1000,
             "price": 300,
             "category": "img/drinks/заголовки/чай.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 31,
@@ -264,7 +264,7 @@
             "weight": 1000,
             "price": 300,
             "category": "img/drinks/заголовки/чай.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 32,
@@ -272,7 +272,7 @@
             "weight": 1000,
             "price": 300,
             "category": "img/drinks/заголовки/чай.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 33,
@@ -316,7 +316,7 @@
             "weight": 500,
             "price": 150,
             "category": "img/drinks/заголовки/напитки.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 38,
@@ -324,7 +324,7 @@
             "weight": 330,
             "price": 220,
             "category": "img/drinks/заголовки/напитки.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 39,
@@ -332,7 +332,7 @@
             "weight": 330,
             "price": 220,
             "category": "img/drinks/заголовки/напитки.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 40,
@@ -340,7 +340,7 @@
             "weight": 330,
             "price": 220,
             "category": "img/drinks/заголовки/напитки.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 41,
@@ -348,7 +348,7 @@
             "weight": 330,
             "price": 220,
             "category": "img/drinks/заголовки/напитки.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 42,
@@ -356,7 +356,7 @@
             "weight": 250,
             "price": 280,
             "category": "img/drinks/заголовки/напитки.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 43,
@@ -364,7 +364,7 @@
             "weight": 330,
             "price": 400,
             "category": "img/drinks/заголовки/напитки.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 44,
@@ -382,7 +382,7 @@
             "weight": 500,
             "price": 250,
             "category": "img/drinks/заголовки/пиво.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 46,
@@ -390,7 +390,7 @@
             "weight": 750,
             "price": 300,
             "category": "img/drinks/заголовки/пиво.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 47,
@@ -398,7 +398,7 @@
             "weight": 330,
             "price": 350,
             "category": "img/drinks/заголовки/пиво.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 48,
@@ -406,7 +406,7 @@
             "weight": 40,
             "price": 200,
             "category": "img/drinks/заголовки/джин.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 49,
@@ -414,7 +414,7 @@
             "weight": 40,
             "price": 400,
             "category": "img/drinks/заголовки/джин.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 50,
@@ -422,7 +422,7 @@
             "weight": 40,
             "price": 400,
             "category": "img/drinks/заголовки/текила.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 51,
@@ -430,7 +430,7 @@
             "weight": 40,
             "price": 500,
             "category": "img/drinks/заголовки/текила.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 52,
@@ -438,7 +438,7 @@
             "weight": 40,
             "price": 150,
             "category": "img/drinks/заголовки/водка.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 53,
@@ -446,7 +446,7 @@
             "weight": 40,
             "price": 170,
             "category": "img/drinks/заголовки/водка.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 54,
@@ -454,7 +454,7 @@
             "weight": 40,
             "price": 300,
             "category": "img/drinks/заголовки/водка.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 55,
@@ -462,7 +462,7 @@
             "weight": 40,
             "price": 330,
             "category": "img/drinks/заголовки/водка.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         },
         {
             "id": 56,
