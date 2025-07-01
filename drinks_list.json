@@ -469,7 +469,7 @@
             "name": "Абрау-Дюрсо бел. п/сл",
             "price": 1500,
             "category": "img/drinks/заголовки/шампанское.svg",
-            "layout": "no_image"
+            "layout": "no_description"
         }
 
 
