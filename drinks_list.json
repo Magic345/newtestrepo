@@ -25,13 +25,11 @@
         {
             "id": 3,
             "name": "Пина колада",
-            "weight1": 400,
-            "weight2": 1000,
-            "price1": 350,
-            "price2": 700,
+            "weight": 400,
+            "price": 350,
             "image": "img/drinks/лимонады/пина_колада.png",
             "category": "img/drinks/заголовки/лимонады.svg",
-            "layout": "two_weight_and_price"
+            "layout": "no_description"
         },
         {
             "id": 4,
